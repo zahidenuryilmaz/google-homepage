@@ -1,0 +1,17 @@
+#logo {
+    height: 92;
+    width: 272;
+    padding-top: 109px;
+}
+
+.footer {
+    color: rgb (34,34,34);
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -27px;
+    min-width: 600px;
+    max-width: 2000px;
+}
