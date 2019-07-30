@@ -9,12 +9,19 @@
     <div id="lga">
         <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
             alt="Google">
-                <form>
+        <form>
+            <div class="searchBorder">
+                <div id="sideSeparation">
                     <input class="searchBar" type="text" name="q" maxlength="2048">
-                    <div class="buttonRegion">
-                        <input class="searchButton" type="submit" value="Google Search">
-                        <input class="searchButton" type="button" value="I'm feeling lucky">
+                    <div id="voiceInputCont" aria-label="Search by voice">
+                        <span id="voiceSearch"></span>
                     </div>
-            </form>
+                </div>
+            </div>
+            <div class="buttonRegion">
+                <input class="searchButton" type="submit" value="Google Search">
+                <input class="searchButton" type="button" value="I'm feeling lucky">
+            </div>
+        </form>
     </div>
 </body>
